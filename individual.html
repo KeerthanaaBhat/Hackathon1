@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual Counseling for Drug Addiction</title>
+    <style>
+        body {
+            background-image: url('https://i.ebayimg.com/images/g/3wcAAOSwOnphigZr/s-l400.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f5f5f5;
+        }
+        header {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 1rem;
+        }
+        nav {
+          background-color: #444;
+          padding: 0.5rem;
+          text-align: center;
+        }
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 1rem;
+        }
+        .container {
+          max-width: 800px;
+          margin: 2rem auto;
+          padding: 2rem;
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .session {
+          margin-bottom: 1rem;
+          padding: 1rem;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          background-color: #f9f9f9;
+        }
+        footer {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 1rem;
+        }
+        .centered-container {
+            width: 50%; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the container horizontally */
+            text-align: left; /* Align the text inside the container to the left */
+            border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+            padding: 20px; /* Optional: Add some padding around the content */
+        }
+      </style>
+      </head>
+      <body>
+        <header>
+          <h1>Drug Addiction Counselling</h1>
+          <p>Helping You Overcome Addiction</p>
+          <h1>Individual Counseling for Drug Addiction</h1>
+        </header>
+        <nav>
+          <a href="home.html" class="button">Home</a>
+          <a href="about.html" class="button">About Us</a>
+          <a href="sessions.html" class="button">Sessions</a>
+          <a href="contact.html" class="button">Contact</a>
+        </nav>
+</head>
+<body>
+
+    <section id="counselingInfo">
+        <h2>Why Choose Individual Counseling?</h2>
+        <p>Our individual counseling sessions provide personalized support for overcoming drug addiction. Our experienced doctors are dedicated to helping you on your journey to recovery.</p>
+    </section>
+
+    <section id="sessionDetails">
+        <h2>Online Counseling Sessions</h2>
+        <p>We offer daily counseling sessions, 7 days a week, to ensure continuous support. Each session includes:</p>
+        <ul>
+            <li>Real-time video sessions with certified counselors</li>
+            <li>Personalized treatment plans</li>
+            <li>Confidential and secure environment</li>
+            <li>Daily mentoring and progress tracking</li>
+        </ul>
+    </section>
+
+    <section id="scheduleAppointment">
+        <div class="centered-container">
+        <h2>Schedule an Appointment</h2>
+        <form action="appointment_submission.php" method="post"> <!-- Replace with actual submission script -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+           
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+           
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+           
+            <label for="preferredDay">Preferred Day:</label>
+            <select id="preferredDay" name="preferredDay">
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thrusday">Thrusday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+                <!-- Add options for other days -->
+            </select><br><br>
+           
+            <label>Preferred Time Slots:</label><br>
+            <input type="checkbox" id="timeSlot1" name="timeSlots[]" value="10AM-12PM">
+            <label for="timeSlot1">10:00 AM - 12:00 PM</label><br>
+            <input type="checkbox" id="timeSlot2" name="timeSlots[]" value="2PM-4PM">
+            <label for="timeSlot2">2:00 PM - 4:00 PM</label><br>
+            <input type="checkbox" id="timeSlot3" name="timeSlots[]" value="6PM-8PM">
+            <label for="timeSlot3">6:00 PM - 8:00 PM</label><br>
+            <!-- Add more time slot options -->
+           
+            <br><br>
+            <input type="submit" value="Schedule Appointment">
+            </div>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you're ready to take the first step towards recovery or have any questions, please contact us:</p>
+        <p>Email: <a href="mailto:info@addictioncounseling.com">info@addictioncounseling.com</a></p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Individual Counseling for Drug Addiction</p>
+    </footer>
+</body>
+</html>

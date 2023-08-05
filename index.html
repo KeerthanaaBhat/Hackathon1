@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 350px;
+        }
+        .login-container h2 {
+            text-align: center;
+            color: #555;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .login-container label {
+            display: block;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        .login-container .remember-me {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            color: #555;
+        }
+        .login-container .forgot-password {
+            text-align: right;
+            margin-top: 5px;
+        }
+        .login-container .forgot-password a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .login-container .sign-up {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .login-container .sign-up a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .login-container button {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="./welcome.html" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+
+            <div class="forgot-password">
+                <a href="./index.html">Forgot Password?</a>
+            </div>
+
+            <button type="submit" href="./welcome.html" >Login</button>
+
+            <div class="sign-up">
+                Don't have an account? <a href="./Signup.html">Sign Up</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
